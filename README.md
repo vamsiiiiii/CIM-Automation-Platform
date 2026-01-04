@@ -1,6 +1,6 @@
 # CIM Automation Platform
 
-A high-performance, AI-powered automation engine designed to streamline the Confidential Information Memorandum (CIM) creation process for investment banking and private equity. This platform reduces the manual effort of CIM drafting from 12+ hours to just 2-4 hours through automated financial analysis and GEMMA-powered narrative generation.
+A high-performance, AI-powered automation engine designed to streamline the Confidential Information Memorandum (CIM) creation process for investment banking and private equity. The platform reduces manual drafting effort through automated financial analysis and AI-assisted narrative generation with mandatory human review and approval.
 
 ## 🚀 Key Features
 
@@ -8,23 +8,48 @@ A high-performance, AI-powered automation engine designed to streamline the Conf
 - **Company-Specific Analytics**: Dedicated dashboards for up to 10 portfolios with individual 5-year **Growth Trajectories** (Revenue vs. EBITDA).
 - **Financial Normalization**: Automated calculations for CAGR, margins, and multi-scenario ROI (Base, Optimistic, Conservative).
 - **Interactive CIM Editor**: A full-featured workspace for analysts to review, refine, and generate AI narratives with human oversight (HITL).
-- **Professional Export**: One-click professional PDF generation with **Dynamic SVG Growth Charts** and standardized layouts.
+- **Professional Export**: One-click professional PDF generation with **Financial projections** and market analysis.
 - **AI Audit Trail**: Transparent **Confidence & Accuracy scores** for every generated narrative to ensure data fidelity.
-- **Universal Demo Mode**: Instant access via `demo@example.com` with 10 pre-seeded companies and realistic financial datasets (2020-2024).
+- **Universal Demo Mode**: Instant access via `demo@example.com`
+
 
 ## 🔄 CIM Automation Workflow
 
 
-┌──────────────────────┐      ┌──────────────────────┐      ┌──────────────────────┐
-│     INPUT DATA       │      │   ANALYSIS ENGINE    │      │    AI AGENT          │
-│ (CSV/Excel Mapping)  ├─────▶│  (Growth & ROI Calc) ├─────▶│ (Narrative Gen)     │
-└──────────────────────┘      └──────────┬───────────┘      └──────────┬───────────┘
-                                         │                             │
-                                         ▼                             ▼
-┌──────────────────────┐      ┌──────────────────────┐      ┌──────────────────────┐
-│   EXPORT & DELIVER   │      │   HUMAN REVIEW       │      │   SECURE STORAGE     │
-│ (Professional PDF)   │◀─────┤   (HITL Audit)       │◀─────┤   (Encrypted DB)    │
-└──────────────────────┘      └──────────────────────┘      └──────────────────────┘
+┌──────────────────────┐
+│     INPUT DATA       │
+│ (CSV/Excel Mapping)  │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│   ANALYSIS ENGINE    │
+│  (Growth & ROI Calc) │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│      AI AGENT        │
+│    (Narrative Gen)   │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│    SECURE STORAGE    │
+│    (Encrypted DB)    │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│     HUMAN REVIEW     │
+│     (HITL Audit)     │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│   EXPORT & DELIVER   │
+│  (Professional PDF)  │
+└──────────────────────┘
 
  
 ## 🏗️ Technical Architecture
