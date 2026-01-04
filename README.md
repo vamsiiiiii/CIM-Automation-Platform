@@ -155,4 +155,3 @@ For quick evaluation, use the pre-built demo environment:
 - **Quality Audit**: AI Performance metrics based on self-audit logic to provide transparency into the model's extraction confidence.
 
 ---
-*Developed for Advanced Agentic AI Coding - CIM Automation Task 2026*
