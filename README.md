@@ -85,7 +85,7 @@ A high-performance, AI-powered automation engine designed to streamline the Conf
 
 - **Backend**: Node.js, Express, Prisma ORM (SQLite/PostgreSQL), Puppeteer (PDF Export)
 - **Frontend**: React 18, Material-UI (MUI v5), Recharts, React Query
-- **AI**: Google AI Studio **Gemma 3 27B**
+- **LLM**: **Gemma 3 27B** (Google AI Studio)
 
 ## 🔐 Security & Data Integrity
 
