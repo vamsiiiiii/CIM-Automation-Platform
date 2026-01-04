@@ -16,6 +16,7 @@ A high-performance, AI-powered automation engine designed to streamline the Conf
 ## 🔄 CIM Automation Workflow
 
 
+```text
 ┌──────────────────────┐
 │     INPUT DATA       │
 │ (CSV/Excel Mapping)  │
@@ -50,6 +51,7 @@ A high-performance, AI-powered automation engine designed to streamline the Conf
 │   EXPORT & DELIVER   │
 │  (Professional PDF)  │
 └──────────────────────┘
+```
 
  
 ## 🏗️ Technical Architecture
