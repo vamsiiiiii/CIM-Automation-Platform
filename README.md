@@ -87,9 +87,9 @@ A high-performance, AI-powered automation engine designed to streamline the Conf
 
 ## 🛠️ Tech Stack
 
-**Backend**: Python 3.10+, FastAPI, SQLAlchemy ORM, NumPy/Pandas, fpdf2 (PDF)
-**Frontend**: React 18, Material-UI (MUI v5), Recharts, React Query
-**AI**: Google AI Studio (@google/generative-ai) -> **Gemma 3 27B**
+- **Backend**: Python 3.10+, FastAPI, SQLAlchemy ORM, NumPy/Pandas, fpdf2 (PDF)
+- **Frontend**: React 18, Material-UI (MUI v5), Recharts, React Query
+- **AI**: Google AI Studio (@google/generative-ai) -> **Gemma 3 27B**
 
 ## 🔐 Security & Data Integrity
 
@@ -99,6 +99,11 @@ The platform implements open authentication for ease of use:
 - **Data Isolation**: Multi-tenant architecture ensuring company data is strictly isolated by User ID.
 
 ## ⚡ Quick Setup
+
+### 1. Prerequisites
+- **Python**: 3.10+
+- **Node.js**: v18.0+
+- **Google AI Studio Key**: Required for GEMMA narrative generation.
 
 ### 2. Dependencies & Environment
 
